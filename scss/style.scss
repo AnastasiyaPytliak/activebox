@@ -1,7 +1,10 @@
-@import url(_header.sass)
-@import url(_features.scss)
-@import url(_work.scss)
-@import url(_team.scss)
-@import url(_testimonials.scss)
-@import url(_download.scss)
-@import url(_footer.sass)
+@import "_reset.scss";
+@import "_fonts.scss";
+@import "_common.scss";
+@import "_header.scss";
+@import "_features.scss";
+@import "_work.scss";
+@import "_team.scss";
+@import "_testimonials.scss";
+@import "_download.scss";
+@import "_footer.scss";
