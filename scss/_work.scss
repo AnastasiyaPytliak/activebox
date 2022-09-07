@@ -2,21 +2,19 @@
 
 .work__container {
     width: 100%;
-    max-width: 1510px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .work__content {
     display: grid;
-    grid-template-columns: repeat(4, minmax(160px, 377px));
+    grid-template-columns: repeat(4, minmax(160px, 100%));
     justify-content: center;
-    gap: 0px 2px;
+    gap: 0px 3px;
 }
 
 .work-item {
     position: relative;
-    max-width: 377px;
-    max-height: 340px;
     cursor: pointer;
 }
 
